@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API = 'process.env.REACT_APP_URL/tasks';
+const API = 'https://task-manager-backend-production-dcec.up.railway.app/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
